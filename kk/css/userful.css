@@ -1,0 +1,142 @@
+body,html{
+  font-size: 14px;
+  background: #f9f9f9;
+}
+.we-bar>span{
+  background-image: url(../image/we2.png);
+  background-size: 100% 100%;
+}
+.footbar >ul>a>.we-bar{
+  color: #e04035;
+}
+.header{
+  width: 100%;
+  height: 9rem;
+  background: url(../image/member_top_bg.png);
+  background-size: 100% 100%;
+  position: relative;
+}
+.urser-nav{
+  width: 20%;
+  height: 5rem;
+  position: absolute;
+  top:6.5rem;
+}
+.urser-nav>img{
+  border-radius: 50px;
+  display: block;
+  width: 5rem;
+  height: 5rem;
+}
+.urser-nav{
+  margin-left: 1rem;
+}
+.heade-nav{
+  height: 5rem;
+  border-bottom: 1px solid #e3e3e3;
+  box-shadow: 1px 1px 5px #999999;
+  background: white;
+}
+.neirong{
+  width: 70%;
+  height: 100%;
+  margin-right: 1rem;
+  float: right;
+}
+.neirong ul{
+  display: block;
+  height: 100%;
+}
+.neirong ul li a{
+  color: #4f4f4f;
+}
+.neirong ul li{
+  width: 33%;
+  height: 90%;
+  float: left;
+  display: block;
+  margin-top: 3px;
+  box-sizing: border-box;
+  border-right: 1px solid #e3e3e3;
+  color: #4f4f4f;
+}
+
+.neirong ul li span{
+  display: block;
+  margin: 0 auto;
+  font-size: 2rem;
+  text-align: center;
+}
+.neirong ul li a{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.border-right{
+  border: none;
+}
+.myWallet{
+  width: 100%;
+  height: 2.5rem;
+  background: white;
+  margin-top: 12px;
+  border-bottom: 1px solid #eeeeee;
+}
+.mywaller-content{
+  width: 95%;
+  height: 2.5rem;
+  margin: 0 auto;
+}
+.mywaller-content>a{
+  width: 100%;
+  height: 2.5rem;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.left-tu{
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+  background-image: url(../image/xuebitu.png);
+  background-position: -13px -14px;
+  float: left;
+  margin-top: 7px;
+}
+.left-wenzi{
+  line-height: 2.5rem;
+  display: inline-block;
+  margin-left: 5px;
+  color: #746666;
+  font-family: "微软雅黑";
+}
+.mywaller-content>a>i{
+  float: right;
+  display: inline-block;
+  line-height: 2.5rem;
+  font-family: '微软雅黑';
+  color: #746666;
+}
+.right-thin{
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+  background-image: url(../image/right-thin.png);
+  float: right;
+  background-size: 100% 100%;
+  margin-top: 7px;
+}
+.mywaller-content>a>i.jifen-me{
+  color:red;
+}
+.left-t{
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+.left-t>img{
+  width: 100%;
+  height: 100%;
+}

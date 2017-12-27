@@ -1,0 +1,79 @@
+html.body{
+  font-size: 14px;
+  font-family: "微软雅黑";
+}
+.ry{
+  width: 100%;
+  height:4.5rem;
+
+  margin-top: 44px;
+}
+.ry-mue{
+  height:5rem;
+  width: 100%;
+}
+
+.ry-center img{
+  float: left;
+}
+
+.inde{
+  float: right;
+}
+.main{
+  width: 100%;
+  height: 5rem;
+  border-bottom: 1px solid #e3e3e3;
+}
+.main,
+.sub,
+.extra{
+  float: left;
+  height: 5rem;
+}
+.sub{
+  margin-left: -100%;
+  width: 3rem;
+}
+.extra{
+  margin-left: -3rem;
+  width: 3rem;
+  height: 5rem;
+}
+.main-inner{
+  margin-left: 3rem;
+  margin-right: 3rem;
+  height: 5rem;
+  word-wrap: break-all;
+}
+.sub img{
+  margin-left: 0.5rem;
+  margin-top: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.extra img{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.footer{
+  position: fixed;
+  bottom:10px;
+  width: 95%;
+  height: 2rem;
+  background: black;
+  left: 50%;
+  margin-left: -47%;
+  border-radius: 5px;
+  background: #d90000;
+  text-align: center;
+  line-height: 2rem;
+  color: white;
+}
+.footer12{
+  margin-top: 16px;
+}

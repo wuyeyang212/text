@@ -1,0 +1,104 @@
+body,html{
+  font-size:14px;
+  font-family: "微软雅黑"
+}
+.zhongjian{
+  margin-top: 44px;
+
+}
+.author{
+  width: 100%;
+  height: 3rem;
+  border-bottom: 1px solid #e3e3e3;
+  background: white;
+}
+.author span{
+  display: inline-block;
+  width: 20%;
+  float: left;
+  text-align: center;
+  line-height: 3rem;
+}
+.author input{
+  float: left;
+  width: 80%;
+  display: inline-block;
+  margin-top: 0.1rem;
+  background: none;
+  margin-left: -1.5rem;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+.spa>span{
+  display: inline-block;
+  width: 20%;
+  float: left;
+  margin-top: -.8rem;
+  text-align: center;
+  line-height: 3rem;
+}
+.spa>input{
+  float: left;
+  width: 80%;
+  display: inline-block;
+  margin-top: -.8rem;
+  background: none;
+  margin-left: -1.5rem;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+.nav—dizi{
+  width: 100%;
+  height: 3rem;
+}
+.nav—dizi span{
+  float: left;
+  width: 20%;
+  margin-top: -1rem;
+}
+.nav—dizi .adress-cli{
+  float: left;
+  width: 80%;
+  margin-top: -0.4rem;
+}
+.xianxi{
+  width: 100%;
+  height: 5rem;
+  background: white;
+  border-bottom: 1px solid #e3e3e3;
+}
+.xianxi span{
+  width: 20%;
+  height: 3rem;
+  display: block;
+  text-align: center;
+  line-height: 3rem;
+  float: left;
+  margin-left: -20%;
+}
+.xianxi .xingmingca3{
+  width: 55%;
+  height: 3rem;
+  background: none;
+  border: none;
+  display: block;
+  float: left;
+  padding: 0px;
+  padding-top: .7rem;
+}
+.baozundizhi{
+  height: 3rem;
+  width: 88%;
+  margin: 0 auto;
+  border-radius: 5px;
+  background: #d90000;
+  text-align: center;
+  color: white;
+  line-height: 3rem;
+  margin-top: 40px;
+  /*font-weight: bold;*/
+  letter-spacing: 3px;
+  font-size: 1.3rem
+}

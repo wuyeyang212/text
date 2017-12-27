@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>商品详情页面</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link href="css/ratchet.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/mui.min.css">
+<link rel="stylesheet" type="text/css" href="css/page.css" />
+<link rel="stylesheet" type="text/css" href="css/product.css" />
+<link rel="stylesheet" type="text/css" href="css/pro2.css" />
+
+<script src="js/jquery.js"></script>
+<script src="js/mui.min.js" charset="utf-8"></script>
+
+</head>
+<body>
+<header class="bar bar-nav"> <a class="icon icon-left-nav pull-left"></a> <a class="icon icon-more-vertical pull-right"></a>
+  <h1 class="title">商品详情</h1>
+</header>
+<div class="mui-slider" style="margin-top:40px;">
+    <div class="mui-slider-group mui-slider-loop">
+      <!--第一个内容区容器-->
+      <div class="mui-slider-item mui-slider-item-duplicate">
+          <img src="image/banner1.jpg" alt="">
+      </div>
+      <!--第二个内容区-->
+      <div class="mui-slider-item">
+        <img src="image/banner.jpg" alt="">
+      </div>
+      <div class="mui-slider-item">
+        <img src="image/banner1.jpg" alt="">
+      </div>
+      <div class="mui-slider-item">
+        <img src="image/banner.jpg" alt="">
+      </div>
+      <div class="mui-slider-item">
+        <img src="image/banner1.jpg" alt="">
+      </div>
+      <div class="mui-slider-item mui-slider-item-duplicate">
+        <img src="image/banner.jpg" alt="">
+      </div>
+    </div>
+    <div class="mui-slider-indicator">
+        <div class="mui-indicator mui-active"></div>
+        <div class="mui-indicator"></div>
+        <div class="mui-indicator"></div>
+        <div class="mui-indicator"></div>
+  </div>
+</div>
+<div id="content">
+  <div class="scroller">
+    <div id="p-summary" class="page">
+      <div class="container">
+        <section id="s-from" class="mui-flex"> </section>
+        <section id="s-title" style="margin-top:5px;">
+          <div class="main">
+            <h1>森松尼T-M30有线电脑游戏鼠标USB台式笔记本发光大鼠标电竞家用</h1>
+          </div>
+          <div class="sub">
+            <div class="slogon"></div>
+          </div>
+        </section>
+        <section id="s-price">
+           <span class="mui-price big"> <i class="mui-price-rmb">积分</i> <span class="mui-price-integer">330</span> <span class="mui-price-decimal"></span> </span>
+         </section>
+         <section  class="yunfei">
+           <span>运费：包邮</span>
+         </section>
+        <ul class="table-view">
+          <li class="table-view-cell" style="padding: 11px 6px 11px 15px;font-size: 18px;font-style:bold;color:#333;">规格选择 <span style="float: right;margin-right:10px;" class="icon icon icon-more clickwn"></span></li>
+        </ul>
+        <section class="shangjia">
+
+            <span></span>
+            <span>商品详情</span>
+          <div style="clear:both"></div>
+
+        </section>
+
+        <!-- 弹出 -->
+        <div class="flick-menu-mask" style=""></div>
+        <div class="spec-menu">
+          <div class="spec-menu-content spec-menu-show" style="display: block;">
+            <div class="spec-menu-top bdr-b">
+              <div class="spec-first-pic"> <img id="spec_image" src="" /> </div>
+              <a class="rt-close-btn-wrap spec-menu-close">
+              <p class="flick-menu-close tclck"> <img src="image/close.png" width="24" height="24" /> </p>
+              </a>
+              <div id="specPlus" class="plus-price-wrap spec-plus-price-mtl" style="display: none">
+              </div>
+              <div class="spec-price" id="specJdPri" style="display: block"> <span class="yang-pic spec-yang-pic">积分 </span> <span id="spec_price"> 36.80 </span> </div>
+              <div id="specWeightDiv" class="spec-weight"> <span>重量:</span> <span id="spec_weight">3.26kg</span> </div>
+            </div>
+            <div class="spec-menu-middle">
+              <div class="prod-spec" id="prodSpecArea">
+                <!-- 已选 -->
+                <div class="prod-spec" id="prodSpecArea">
+                  <!-- 已选 -->
+                  <div class="spec-desc"> <span class="part-note-msg">已选</span>
+                    <div id="specDetailInfo_spec" class="base-txt">
+                      <span class="yanse">白色 直袖款 </span>
+                      <span class="amount">1</span>件 </div>
+                  </div>
+                  <div class="nature-container" id="natureCotainer">
+                    <!--颜色 5.5版本之前的规格属性-->
+                    <div class="pro-color"> <span class="part-note-msg"> 颜色 </span>
+                      <p id="color">
+                        <a title="白色 直袖款" class="a-item selected J_ping"   report-eventparam="白色 直袖款" >白色 直袖款</a>
+                        <a title="蓝色 直袖款" class="a-item J_ping"   report-eventparam="蓝色 直袖款" >蓝色 直袖款</a>
+                        <a title="黑色 直袖款" class="a-item J_ping"   report-eventparam="黑色 直袖款" >黑色 直袖款</a>
+                        <a title="灰色 直袖款" class="a-item J_ping"   report-eventparam="灰色 直袖款" >灰色 直袖款</a>
+                        <a title="粉色 直袖款" class="a-item J_ping"   report-eventparam="粉色 直袖款" >粉色 直袖款</a>
+                        <a title="紫色 直袖款" class="a-item J_ping"   report-eventparam="紫色 直袖款" >紫色 直袖款</a>
+                       </p>
+                    </div>
+                  </div>
+
+                  <div id="addCartNum" class="pro-count"> <span class="part-note-msg" style="margin-right: 10px;">数量</span>
+                    <div style="width: 100%;margin-left: 10px;" class="num">
+                      <p class="jian" style="float: left;margin-top: 5px;"><img src="image/jian.png" width="16" height="16"></p>
+                      <input id="cool" class="inputBorder"  value="1" onKeyUp="this.value=this.value.replace(/[^0-9]/g,'')" onafterpaste="this.value=this.value.replace(/[^0-9]/g,'')" type="text" maxlength="5" placeholder="数量" style="font-size: 12px;width: 60px;height: 20px;float: left;padding: 0 5px;margin-top:3px;margin-left: 5px;text-align:center" />
+                      <p class="jia" style="float: left;margin-top: 5px;margin-left:4px;"><img src="image/jia.png" width="16" height="16"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flick-menu-btn spec-menu-btn"> <a class="yellow-color add_cart" id="add_cart_spec" style="transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">加入购物车</a> <a class="red-color directorder" id="directorder_spec" style="transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">立即购买</a>
+            </div>
+          </div>
+        </div>
+        <!-- 弹出 -->
+        <section id="s-actionBar-container">
+          <div id="s-actionbar" class="action-bar mui-flex align-center">
+            <div class="web"> <img src="image/atm.png" width="20" height="20" />
+              <p>客服</p>
+            </div>
+            <button class="cart cell">加入购物车</button>
+            <button class="buy cell">立即购买</button>
+            <div class="activity-box cell"></div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+<script type="text/javascript">
+$(function () {
+    $(".clickwn").click(function () {
+        $(".flick-menu-mask").show();
+       $(".spec-menu").show();
+    })
+
+    $(".tclck").click(function () {
+       $(".flick-menu-mask").hide();
+       $(".spec-menu").hide();
+    })
+
+   /* $("#cool").focus(function(){
+        var oi = $('#cool').val();
+
+        $('.amount').html(oi)
+    });*/
+
+         $('#cool').bind('input propertychange', function () {
+           /* alert(this.value);*/
+              $('.amount').html(this.value)
+
+        }).bind('input input', function () {
+
+        });
+
+
+        $('#color a').click(function () {
+          var cook = $(this).index();
+          $('#color a').eq(cook).addClass('selected').siblings().removeClass('selected');
+          var testyan = $('#color a').eq(cook).html();
+          console.log($('.yanse').html());
+        })
+
+
+        //加减面板
+            $(function(){
+                //加号
+                $(".jia").click(function(){
+
+                var $parent=$(this).parent(".num");
+                var $num=window.Number($(".inputBorder",$parent).val());
+                $(".inputBorder",$parent).val($num+1);
+
+                $('.amount').html($num+1)
+
+                });
+
+                //减号
+                $(".jian").click(function(){
+                var $parent=$(this).parent(".num");
+                var $num=window.Number($(".inputBorder",$parent).val());
+                if($num>2){
+                $(".inputBorder",$parent).val($num-1);
+                 $('.amount').html($num-1)
+
+              }else{
+                $(".inputBorder",$parent).val(1);
+                $('.amount').html($num)
+
+
+                }
+                });
+
+      })
+
+
+})
+var gallery = mui('.mui-slider');
+gallery.slider({
+    interval:300//自动轮播周期，若为0则不自动播放，默认为0；
+  });
+</script>
+</html>

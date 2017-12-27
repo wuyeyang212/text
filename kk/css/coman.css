@@ -1,0 +1,82 @@
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {margin:0;padding:0}
+body,button,input,select,textarea {	font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif}
+h1,h2,h3,h4,h5,h6 {font-size:100%}
+address,cite,dfn,em,var {font-style:normal}
+code,kbd,pre,samp {font-family:courier new,courier,monospace}
+small {font-size:12px}
+ol,ul {list-style:none}
+a {text-decoration:none}
+sup {vertical-align:text-top}
+sub {vertical-align:text-bottom}
+legend {color:#000}
+fieldset,img {border:0}
+button,input,select,textarea {font-size:100%}
+table {border-collapse:collapse;border-spacing:0}
+i{font-style: normal;}
+.footbar{
+  width: 100%;
+  height: 3.5rem;
+  background: #f9f9f9;
+  position: fixed;
+  border-top: 1px solid #dcdcdc;
+  bottom: -1px;
+}
+.footbar >ul{
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+}
+.footbar >ul>a{
+  display: block;
+  float: left;
+  width: 20%;
+  height: 100%;
+
+}
+.footbar >ul>a>li{
+  text-align: center;
+  height: 3rem;
+  font-size: 0.5rem;
+  color: #929191;
+  margin-top: 0.3rem;
+
+}
+.loaction-bar,.cat-bar,.classi-bar,.index-bar,.we-bar{
+  margin: 0 4px;
+}
+/*#we-bar{
+  float: right;
+}*/
+.footbar >ul>a>li>span{
+  width: 1.9rem;
+  height: 1.9rem;
+  margin: 0 auto;
+  display: block;
+}
+.index-bar>span{
+  background-image: url(../image/inde.png);
+  background-size: 100%;
+}
+.loaction-bar>span{
+  background-image: url(../image/lest.png);
+  background-size: 100% 100%;
+}
+.cat-bar>span{
+  background-image: url(../image/cart.png);
+  background-size: 100% 100%;
+}
+.classi-bar>span{
+  background-image: url(../image/clsssidi.png);
+  background-size: 100% 100%;
+}
+.we-bar>span{
+  background-image: url(../image/we.png);
+  background-size: 100% 100%;
+}
+.footer-bar{
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  height: 94px;
+  color: gray;
+}

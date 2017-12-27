@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/coman.css">
+  <link rel="stylesheet" type="text/css" href="css/mui.min.css">
+  <link rel="stylesheet" href="css/adresssnew.css">
+  <link href="css/mui.picker.css" rel="stylesheet" />
+  <link href="css/mui.poppicker.css" rel="stylesheet" />
+  <script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/mui.picker.js"></script>
+  <script src="js/mui.poppicker.js"></script>
+  <script src="js/city.data-3.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body style="background:white">
+  <header id="header" class="mui-bar mui-bar-nav">
+      <h1 class="mui-title">添加新地址</h1>
+    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" id="deeda"></a>
+  </header>
+  <div class="zhongjian">
+    <div class="author">
+        <span>用户名:</span>
+        <input type="text" name="" value="" placeholder="请输入你的收件地址">
+    </div>
+    <div class="author spa">
+        <span>电话:</span>
+        <input type="number" name="" value="" placeholder="请输入你的电话">
+    </div>
+    <div class="author">
+      <div class="nav—dizi" id="showCityPicker3">
+        <span>选择地址:</span>
+        <div class="adress-cli" id="cityResult3">
+          请选择你的地址
+        </div>
+      </div>
+
+    </div>
+    <div class="xianxi">
+      <span>详细地址:</span>
+      <textarea type="text" placeholder="输入你的详细地址" class="xingmingca3" style="outline: none;font-size:14px" wrap="hard"></textarea>
+    </div>
+    <div class="author ">
+        <span>邮政编码:</span>
+        <input type="number" name="" value="" placeholder="请输入你的编码">
+    </div>
+  </div>
+  <div class="baozundizhi">
+      保存到地址
+  </div>
+  <script>
+  (function($, doc) {
+    $.init();
+    $.ready(function() {
+      /**
+       * 获取对象属性的值
+       * 主要用于过滤三级联动中，可能出现的最低级的数据不存在的情况，实际开发中需要注意这一点；
+       * @param {Object} obj 对象
+       * @param {String} param 属性名
+       */
+
+      var _getParam = function(obj, param) {
+        return obj[param] || '';
+      };
+      var cityPicker3 = new $.PopPicker({
+        layer: 3
+      });
+      cityPicker3.setData(cityData3);
+      var showCityPickerButton = doc.getElementById('showCityPicker3');
+      var cityResult3 = doc.getElementById('cityResult3');
+      showCityPickerButton.addEventListener('tap', function(event) {
+        cityPicker3.show(function(items) {
+          cityResult3.innerText =  _getParam(items[0], 'text') + " " + _getParam(items[1], 'text') + " " + _getParam(items[2], 'text');
+          cityResult3.style.color="black"
+          //返回 false 可以阻止选择框的关闭
+          //return false;
+        });
+      }, false);
+    });
+
+  })(mui, document);
+  var ger = document.getElementById('deeda');
+  ger.onclick = function () {
+    location.href="adress.html"
+  }
+  </script>
+</body>
+</html>

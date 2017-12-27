@@ -1,0 +1,53 @@
+.zhongjian{
+  width: 100%;
+  height: auto;
+  margin-top: 71px;
+
+}
+.weihui{
+  width: 80%;
+  height: 4rem;
+  margin: 0 auto;
+  margin-top: 21px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 6px 23px -4px #e0d9d9;
+  overflow: hidden;
+}
+.weihui>span{
+  width: 30%;
+  height: 4rem;
+  background: #ffe9e9;
+  float: left;
+  display: block;
+}
+.weihui>span img{
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+  display: block;
+  margin-top: .5rem;
+}
+.weihui>span a{
+  font-size: 8px;
+  color: #4f4f4f;
+  text-align: center;
+  display: block;
+  margin-top: .1rem;
+}
+.jiage{
+  float: left;
+  width: 50%;
+  font-size: 1.5rem;
+  color: #db1818;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.dianjia{
+  color: #4f4f4f;
+  float: left;
+  width: 50%;
+  margin-left: 15px;
+  margin-top: 6px;
+  font-size: 9px;
+}
